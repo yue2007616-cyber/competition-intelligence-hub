@@ -1,5 +1,5 @@
 {
-  "last_success_utc": "2026-10-13T08:25:05.240186+00:00",
+  "last_success_utc": "2026-10-13T12:47:17.995454+00:00",
   "items": [
     {
       "title": "詹景曦：没有人能完全准备好再开始 - 南京审计大学",
@@ -51,6 +51,13 @@
       "competition": "全国大学生市场调查与分析大赛 报名"
     },
     {
+      "title": "广州城市理工学院在全国大学生数学建模竞赛广东赛区再创佳绩 - 中国教育在线",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40TFc1eC1JUFdJRVd4eUVWYmFUMHRZYlhkMGVrYmFFZ0Vqc2wwYWRRdHIxWWZ6SXhuZGtRRmpodHpmUHJ3NnJjZXl6dGVwNG9QSWZBZzhrMGtzM0ozaXgzeGJsR1o0RURqMkVfag?oc=5",
+      "published": "Tue, 13 Oct 2026 02:51:00 GMT",
+      "publisher": "中国教育在线",
+      "competition": "全国大学生数学建模竞赛 赛题"
+    },
+    {
       "title": "华教杯全国大学生数学竞赛被纳入武书连中国大学排名指标体系- 中国日报网 - China Daily",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUE3cmNPUldhQ25teVRkd2M0Z1NmeFF3OE9rUC1keTF3S1ZOUHR3dzA3b0VlLVRjaVVmbFdtbGpmTzBOQXdxVnFaT0d6emhCRE9ldlVkZ3A5Nlo5YklDMnFLVnhJZUppWDBIQUt4VHFUX2FGSTdiaGNuc3RYdnVFQUZENA?oc=5",
       "published": "Fri, 27 Mar 2026 07:00:00 GMT",
@@ -90,13 +97,6 @@
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1BQ3hEX2l0b212cm9lc05BZWlCSW9mRnpfdmlidjZzazN2cjlxY0JWdllZNUIxWU9nQ0g2b0JDbWJZbkFa?oc=5",
       "published": "Mon, 09 May 2022 07:00:00 GMT",
       "publisher": "华南师范大学新闻网",
-      "competition": "全国大学生数学建模竞赛 赛题"
-    },
-    {
-      "title": "为生产决策提供数学模型支持 学校在全国大学生数学建模竞赛中获佳绩 - 华南理工大学新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwams3VllETk52SjY3elEyRk1yNzlVbXBKVmYwVHhWMy1xdGl3bnJRRWRwNFJGLVVleEc1STlleGJsSHduSzQxLVJ5cm4taU5sYzYyRHZNVlAydTFwV2pnRXo0MA?oc=5",
-      "published": "Mon, 16 Dec 2024 08:00:00 GMT",
-      "publisher": "华南理工大学新闻网",
       "competition": "全国大学生数学建模竞赛 赛题"
     },
     {
@@ -142,10 +142,10 @@
       "competition": "美国大学生数学建模竞赛 MCM ICM"
     },
     {
-      "title": "我校学子在2016年美国大学生数学建模大赛中荣获最高奖项 - 中山大学SUN YAT-SEN UNIVERSITY",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YbHh4N3pYdXBQZ054dVA2VmhWbzI5b2xUekNIWHplcE1vbXBkSkZuWTg1d1cwQk9idlRqMGRuUWNCdVdGZXhPMHZLM3k4WFRGWGtVMFFyeHJMT3FPOHc?oc=5",
-      "published": "Mon, 18 Apr 2016 07:00:00 GMT",
-      "publisher": "中山大学SUN YAT-SEN UNIVERSITY",
+      "title": "​西浦学子在美国大学生数学建模竞赛中再创历史佳绩- Xi'an Jiaotong-Liverpool University - 西交利物浦大学",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaFVvN01yaktoNW05Nkpid25mUm5TWEo1Zzc4a2QtNE5vSmNWeEgyQkp4VU55MWJraGpxMUZQOW9nRVpqaHNfRllFX2syQWFVSS1UN3NGVDdXcmZpaW9ybVcwYmdWcVRPSkZrZFFQNXNteElyV3VVSXFPeU9UUEVlQg?oc=5",
+      "published": "Thu, 27 May 2021 07:00:00 GMT",
+      "publisher": "西交利物浦大学",
       "competition": "美国大学生数学建模竞赛 MCM ICM"
     },
     {
@@ -191,8 +191,8 @@
       "competition": "亚太地区大学生数学建模竞赛"
     },
     {
-      "title": "华为云携手灵犀AI启动“光合行动” 共启AI产业赋能新纪元 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HclVfVnBFZ2dyMUliY2JuUGZnelBpMDVRcHU2bTIwZnJtbXVvdFVLZTdlTURWWE8xLUt2UHpYRVlqaXdUREFGUWs1a3JhVHQxdjY4NGkwWnpsSFhJTXc?oc=5",
+      "title": "“信泰宜合”忻海洪：深耕IT服务，赋能企业数字化转型 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41Ykppb3ZlaHpvcVdyalpQSFZXVzc1dWk0VGRNTVZfOFJpUU1ja29tMzlBZlctc3VaWFRzRXNQV3IxZy1CU2VFZDgzV3hVbGF1X1hQMDhfZ3lJajVPc2c?oc=5",
       "published": "Fri, 09 May 2025 07:00:00 GMT",
       "publisher": "中华网",
       "competition": "亚太地区大学生数学建模竞赛"
@@ -247,13 +247,6 @@
       "competition": "大学生 数据分析 实践赛"
     },
     {
-      "title": "我校在多项高水平竞赛中斩获佳绩 - 黑龙江科技大学",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PQldqLW5ScVB5TEx5ZjFhX05HSl9uVUZfRzkyQ0JYY1NpT1daWkxBZE1hQjRmc041QWJnbElMWTJNTk1OV3N2ZHRLeHJfV2t2?oc=5",
-      "published": "Fri, 11 Sep 2026 07:00:00 GMT",
-      "publisher": "黑龙江科技大学",
-      "competition": "大学生 数据分析 实践赛"
-    },
-    {
       "title": "【主题党日】统计与数据科学学院党委本科生第一党支部：“津彩飞扬”城市飞奔赛-综合新闻 - 南开大学新闻",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1CdVJXanp6RUVJTXZvZ1otYWNuT2xoWGoxRnhlbXpxQUZEOE43N3JPUXM4YkxnTUk3MFJqM041a1ZBWUdvVDZjUlFXOHQtUlJBd0pSbUxCMGRSWWthZWplaS1iVGxGcVhPblZKSHFVTHZXT2c?oc=5",
       "published": "Mon, 21 Sep 2026 02:44:00 GMT",
@@ -272,6 +265,13 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16aWN2VE94NU5rRllaOUR0dkQxcWZjeEZZWGRITlk5Q25sSlBwTUVDMVdnS3QzWDFBTzFtNE9uSnAyZHZMQnhadklLRnloN3NQcUphLWFtYTJrNGQ4MmFiZG1IRHJQcEhrdThvU0RUa29neUk?oc=5",
       "published": "Tue, 30 Jun 2026 07:00:00 GMT",
       "publisher": "北京大学新闻网",
+      "competition": "大学生 数据分析 实践赛"
+    },
+    {
+      "title": "我校在2026年“学创杯”全国大学生创业综合模拟大赛黑龙江省选拔赛中再创佳绩 - 黑龙江科技大学",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZLWl4ck82d0hNRE54RERQQ1JILUdiM0J0N0k4a3ZPVXRtbkVsVFFnN0ZDQS1Cc3ZmSHVjUExldFBwSkotMW5DdHh1Q2pMME1lcjM1em1R?oc=5",
+      "published": "Sun, 12 Jul 2026 07:00:00 GMT",
+      "publisher": "黑龙江科技大学",
       "competition": "大学生 数据分析 实践赛"
     }
   ],
