@@ -331,6 +331,44 @@
       "competition": "大学生 数据分析 实践赛"
     }
   ],
-  "failed_queries": [],
-  "note": "新闻搜索线索，未经官方核实"
+  "failed_queries": [
+    {
+      "query": "全国大学生统计建模大赛 报名",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "全国大学生市场调查与分析大赛 报名",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "全国大学生数学建模竞赛 赛题",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "泰迪杯 数据挖掘 挑战赛",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "美国大学生数学建模竞赛 MCM ICM",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "数维杯 数学建模",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "亚太地区大学生数学建模竞赛",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "华数杯 数学建模",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "query": "大学生 数据分析 实践赛",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "note": "新闻搜索线索，未经官方核实",
+  "last_attempt_utc": "2026-10-19T13:03:35.893293+00:00"
 }
