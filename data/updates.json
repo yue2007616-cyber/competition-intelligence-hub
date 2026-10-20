@@ -1,18 +1,11 @@
 {
-  "last_success_utc": "2026-10-20T01:02:25.442824+00:00",
+  "last_success_utc": "2026-10-20T07:02:30.107376+00:00",
   "items": [
     {
       "title": "詹景曦：没有人能完全准备好再开始 - 南京审计大学",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tdTlVQzhMOHhOb2FFZFF3a1doUXZ1Y2dZS1o1Y2dBZ2p4YkVYeWNvRTVmc2EtVE10dWZ4WE1JelN0blpHTHB0X3d5LTNSQTc5SURVal9EcFAyY1I5V01JN2g4Tkpudw?oc=5",
       "published": "Sat, 10 Oct 2026 07:00:00 GMT",
       "publisher": "南京审计大学",
-      "competition": "全国大学生统计建模大赛 报名"
-    },
-    {
-      "title": "厉害了！石家庄学生获国赛一等奖 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0cGJNSEkzSUlEWmtrN3lRN1B2M3BQMHB3WkhoakE0UW10T3c0ZUk5Q2JoNEhhYzZiZGxTaVhCVFpsdU0yYjZITkVkZ1pjOVJvTVBuQ0V3?oc=5",
-      "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "publisher": "QQ News",
       "competition": "全国大学生统计建模大赛 报名"
     },
     {
@@ -34,6 +27,13 @@
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwU252SkJHVV92UUF1c1BEcHJxUTRxeFktZHZfX0dwUTR3N2JDemh6emRvNUY5WDFHUDJPTDBkeHlmNHNZcklNSkFldTV1bTdkQkxtcWM1VQ?oc=5",
       "published": "Tue, 02 Jun 2026 07:00:00 GMT",
       "publisher": "北京交通大学新闻网",
+      "competition": "全国大学生市场调查与分析大赛 报名"
+    },
+    {
+      "title": "闪耀全国大学生电商“三创赛”！广州南方学院斩获9大奖 - YCWB",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KUHJEUmxHRS1sMzhwTGZVOW1ZZks1SjBIU0UtbGxzYVNndlJLeXA1Q1Z3OHFhYTU2UktpQ1pWaHBSbHUtSTlGOUhidlNBRlBGVTd2LVZsZUktVWctcEI5eWNB?oc=5",
+      "published": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "publisher": "YCWB",
       "competition": "全国大学生市场调查与分析大赛 报名"
     },
     {
@@ -62,13 +62,6 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MenpzTmF1NF80Qnl4OXNlVlc4NzY4WG9KR3F6SjhZNVU1RF9DVHZrWGVtX0JNMHFsU2dxM0ZJYnV1MmRGR3hxYWY1ZnFaNXp0S1cyR255allGZTR6SkdJ?oc=5",
       "published": "Tue, 16 May 2023 07:00:00 GMT",
       "publisher": "上海交通大学 新闻网",
-      "competition": "全国大学生市场调查与分析大赛 报名"
-    },
-    {
-      "title": "衡阳师范学院在全国大学生市场调查与分析大赛中获佳绩 - 新湖南",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UOUN0T0pwSWpjYnRXYnJsQzJCdFZ1YlFJMTlTVkVQMWM2VTNaR05ZUjczNnlPNDJRM2xfdm1HTzFFQURVUUY3RlRTX2dDajluaEwxMDNQQlJKMG1vQk1j?oc=5",
-      "published": "Tue, 11 Jun 2024 07:00:00 GMT",
-      "publisher": "新湖南",
       "competition": "全国大学生市场调查与分析大赛 报名"
     },
     {
@@ -191,10 +184,31 @@
       "competition": "亚太地区大学生数学建模竞赛"
     },
     {
+      "title": "量子真机算力，随买随用 丨 玻色量子云服务春季更新发布 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXclFyN1kyeE1tZzBxbGxhcWtpYzV1cjZMdHN1TUJsaXU4WkxwV0lhNGkwU3FWZkRwREd4MGM2VWpqMVdXSTRBY25WTlZob1N3aGFkOUQ0QzdzN0hmMVpiOFhXNGVVaTF2dUU3Ug?oc=5",
+      "published": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "publisher": "中华网",
+      "competition": "亚太地区大学生数学建模竞赛"
+    },
+    {
+      "title": "祝贺！他们是本专科生国家奖学金获奖学生代表 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZnQyMUNOamVPTHBaaWg1RDRVbkw1a1Z2aThjMlVaWTFGYVppQlE2bmJmSEpESHdJaW5PdHQyNVBBM3oyUXJhamI1LTlSZFl0LVNmUVlPcnJrX0pDLVpuUG44N0Z0Z3NqVXBoMVlCaHZ5ZG95RFptaDh1VFpuRFFrMHpfcVE?oc=5",
+      "published": "Mon, 06 May 2024 07:00:00 GMT",
+      "publisher": "新华网",
+      "competition": "亚太地区大学生数学建模竞赛"
+    },
+    {
       "title": "论文√竞赛√保研√，暨南青年这样追梦 - 中青在线",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wWVhxeUU4ZlNTdFFMdVN1ZlZpTlVtTTc1dDJsY1JJcnJ4am9LWU43NWhuaDNIeld2UWw1Sml3dlNfZ3NGSmRSRnBGNklUUi1MWFlPOGtIT2dTcF9RSWRhdmxBSXpDdGl3b1FlVEtQLUlpdw?oc=5",
       "published": "Fri, 31 Mar 2023 07:00:00 GMT",
       "publisher": "中青在线",
+      "competition": "亚太地区大学生数学建模竞赛"
+    },
+    {
+      "title": "人民网：本专科生国家奖学金获奖学生代表名录 - 天津大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56anpuY0Qzd19LTWtON3hZSEYtNERMMFIxWkJLU1daeml2OW9QSFZPcVU3dktZaURobFhfOTFUR0h2bzRRSnlqWWM0OWUyblExYkhRbm93?oc=5",
+      "published": "Thu, 06 May 2021 07:00:00 GMT",
+      "publisher": "天津大学新闻网",
       "competition": "亚太地区大学生数学建模竞赛"
     },
     {
@@ -212,11 +226,11 @@
       "competition": "亚太地区大学生数学建模竞赛"
     },
     {
-      "title": "第十三届中国大学生年度人物候选人李扬帆事迹 - 人民网教育",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yWmpJTkRFdG5DdEZRWHlhcmdwb2xBdG96S3dfNE41R3hSbklLRFV0eE93b0Q0cWczT0otTlRMNXYtQ2ZWd05SWmdNSkduLTBYZU40eG5IS05PWVhMVzU4Ynp6NmFQaGtM?oc=5",
-      "published": "Fri, 20 Apr 2018 07:00:00 GMT",
-      "publisher": "人民网教育",
-      "competition": "亚太地区大学生数学建模竞赛"
+      "title": "万元奖励博士生 桃园精神传帮带——渭南桃园学校2016届学生王浩屹考取中国地质大学博士获桃园奖学金 - 华人头条",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9DdEVHUzZCQS03NUktZnVwQUxIcG1fVnpPdTlGLUNSVXFyVW9TU1BCZnduRlJRNC0wbGoxOEplWjFONUVYcjdvazBiZE5nTjBhR3dWWjcxLXNsUkY1Q2c?oc=5",
+      "published": "Fri, 24 Jul 2026 03:18:00 GMT",
+      "publisher": "华人头条",
+      "competition": "华数杯 数学建模"
     },
     {
       "title": "他是黄天乐！选择直博的校会主席！ - 中青在线",
@@ -247,13 +261,6 @@
       "competition": "华数杯 数学建模"
     },
     {
-      "title": "青春拥抱梦想 追光成长成才 2021-2022学年度北京市本专科生国家奖学金获奖学生风采录 - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGcjRqS3lvUG1EZTJUSDNCQld6UjJNX1BrOG83WXZycVBHLUthT1k0Y0pKOVJGMVNFeDY2NDFDSkxXZHhHNmZrc2lNR3pfZnllQ3p0TTBJMGVtY29QZUp1N0hyUUVUdWlCU2tNWGFlYUpHdw?oc=5",
-      "published": "Fri, 30 Dec 2022 08:00:00 GMT",
-      "publisher": "京报网",
-      "competition": "华数杯 数学建模"
-    },
-    {
       "title": "中国海大学子在第十六届全国大学生“三创赛”全国总决赛中获佳绩 - 中国海洋大学",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HQTdXbmNPTVNFOVFuOW9STERrU0dpRDJZUGRaLXRsa2FUeUVrOHhiN0lZVnQ0RUE5aG9GUERJU1h5Unh5UER4aGV2VzdGaDhPRW9Id0RaTnJPZGQ0YTRLRmtR?oc=5",
       "published": "Sat, 03 Oct 2026 07:00:00 GMT",
@@ -268,17 +275,17 @@
       "competition": "大学生 数据分析 实践赛"
     },
     {
-      "title": "荣耀・英特尔AI智造创新赛正式启动 即日起面向全国高校开放报名 - 封面新闻",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2ZmZEt6WkdQNjF4ME5xVE96UDZyWWY2WldEclZRZGNEMC1GRlZtUUI1MjVFY3NkN2E3UTBSc19QclBVUTRvem03cmRDeUMxLWtrTWUtNVVLODlsbjBfZnFZaHptMjJhdkN4QmpIN3I4OW9oZHk1bkxhYlJidGhKZ3ZVRQ?oc=5",
-      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "publisher": "封面新闻",
-      "competition": "大学生 数据分析 实践赛"
-    },
-    {
       "title": "全国大学生计算机设计大赛首场决赛在东华大学落幕 - 上海新闻",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41VWV4dE0ySWpodVJMUllpa0Frdkh5YkhPQm41b2o4bFFRbGZMd0t6d3dCNjF6ek5LYlZqMWN3d2FSSlhWczZmdWo5S2N3M3lNT0RSMWFVVmVZaHNWY05GUFRSWjd4YzgwRlA4MQ?oc=5",
       "published": "Sun, 26 Jul 2026 07:00:00 GMT",
       "publisher": "上海新闻",
+      "competition": "大学生 数据分析 实践赛"
+    },
+    {
+      "title": "荣耀・英特尔AI智造创新赛正式启动 即日起面向全国高校开放报名 - 封面新闻",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2ZmZEt6WkdQNjF4ME5xVE96UDZyWWY2WldEclZRZGNEMC1GRlZtUUI1MjVFY3NkN2E3UTBSc19QclBVUTRvem03cmRDeUMxLWtrTWUtNVVLODlsbjBfZnFZaHptMjJhdkN4QmpIN3I4OW9oZHk1bkxhYlJidGhKZ3ZVRQ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "publisher": "封面新闻",
       "competition": "大学生 数据分析 实践赛"
     },
     {
