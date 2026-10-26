@@ -1,95 +1,247 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TradeMemo · 商务英语概念背诵</title>
-<meta name="theme-color" content="#f7f8f6">
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>TradeMemo · Incoterms 纯背诵看板</title>
 <style>
-:root{--bg:#f7f8f6;--ink:#24332e;--muted:#65736d;--line:#dde6df;--green:#256c50;--mint:#e9f3ec;--white:#fff;--warn:#a44b3d;--warnbg:#fff0ec}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft Yahei",sans-serif;background:var(--bg);color:var(--ink);margin:0;font-size:15px;line-height:1.55}button{font:inherit;cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible,[tabindex]:focus-visible{outline:3px solid #82ae96;outline-offset:2px}
-.container{max-width:900px;margin:0 auto;padding:22px 20px 70px}.sitehead{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:22px}.logo{border:0;background:transparent;font-weight:800;letter-spacing:-.7px;font-size:20px;color:var(--green);padding:0}.subtitle{color:var(--muted);font-size:12px}.nav{display:flex;gap:6px;flex-wrap:wrap}.nav button{border:0;background:transparent;padding:7px 10px;border-radius:9px;color:#52665b}.nav button.active{background:var(--mint);color:var(--green);font-weight:700}
-h1{font-size:30px;letter-spacing:-1.1px;margin:5px 0 10px;line-height:1.25}h2{font-size:20px;margin:2px 0 14px}h3{font-size:16px;margin:4px 0}.lead{color:var(--muted);margin:0 0 22px}.eyebrow{font-size:12px;letter-spacing:1.8px;color:var(--green);font-weight:800}.panel{border:1px solid var(--line);background:var(--white);border-radius:18px;padding:22px;margin:15px 0}.row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.row.space{justify-content:space-between}.small{font-size:13px;color:var(--muted)}.btn{border:1px solid var(--line);color:var(--ink);background:var(--white);padding:11px 17px;border-radius:11px;font-weight:650;transition:.1s}.btn:hover{border-color:#9abaac}.btn.primary{background:var(--green);border-color:var(--green);color:white}.btn.ghost{background:transparent}.btn.sm{padding:7px 11px;font-size:13px}.btn.full{width:100%;justify-content:center}.hero{background:var(--mint);border-radius:20px;padding:23px 24px;margin:20px 0 25px}.hero p{margin:8px 0 0;color:#537162}.levels{display:grid;gap:12px}.level{display:flex;align-items:center;justify-content:space-between;gap:18px;border-radius:15px;border:1px solid var(--line);background:#fff;padding:18px 20px}.level span.codes{font-weight:750;letter-spacing:1.1px;color:var(--green);font-size:15px}.level p{margin:4px 0;color:var(--muted);font-size:13px}.level .btn{white-space:nowrap}.progress{height:7px;border-radius:999px;background:#e7eeea;overflow:hidden;margin:15px 0 18px}.bar{height:100%;background:#509578;transition:.2s}.crumb{font-size:13px;color:var(--muted);margin:4px 0 10px}.flash{min-height:355px;background:#fff;border:1px solid #d3e0d6;border-radius:24px;padding:30px 34px;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;user-select:text;box-shadow:0 7px 30px #254c3810;cursor:default}.flash .tiny{font-size:12px;color:#789386;letter-spacing:1px}.code{font-size:76px;line-height:1.13;font-weight:800;letter-spacing:-3px;color:var(--green);margin:14px 0}.flash .code{font-size:54px;margin:5px 0 7px}.english{font-size:25px;font-weight:750;line-height:1.3}.chinese{font-size:23px;font-weight:750;margin:5px 0 12px;color:var(--green)}.definition{font-size:17px;max-width:550px;margin:10px 0}.extrainfo{margin-top:12px;max-width:520px;padding-top:13px;border-top:1px solid #e7ede8;display:flex;flex-direction:column;gap:6px}.extrainfo span{font-size:13px}.extrainfo strong{color:var(--green)}.tap{font-size:12px;color:#748d80;position:absolute;bottom:15px}.flashcontrols{display:flex;justify-content:center;gap:11px;margin:17px 0}.flashcontrols .btn{min-width:136px}.quizPrompt{font-size:20px;font-weight:750;margin:12px 0 17px}.choices{display:grid;gap:9px}.choice{border:1px solid var(--line);background:#fff;padding:15px 17px;border-radius:12px;text-align:left;font-weight:550;color:var(--ink)}.choice:hover:not(:disabled){background:#f3f9f5}.choice.correct{background:#edf7ee;border-color:#57a276;color:#1b6443}.choice.wrong{background:var(--warnbg);border-color:#ca7c70;color:var(--warn)}.feedback{margin-top:14px;border-radius:12px;padding:12px 14px;font-size:14px;background:#f2f6f2}.feedback.bad{background:var(--warnbg)}.feedback strong{display:block;margin-bottom:2px}.matchgrid{display:grid;grid-template-columns:1fr 1.4fr;gap:12px}.matchgrid h3{font-size:13px;color:var(--muted);margin:0 0 9px}.matchcol{display:flex;flex-direction:column;gap:9px}.match{min-height:53px;text-align:left;border-radius:12px;background:#fff;border:1px solid var(--line);padding:13px;font-weight:650}.match.active{background:var(--mint);border-color:var(--green)}.match.done{background:#e9f6eb;border-color:#bad9c5}.match.error{background:#fff0ec;border-color:#db8a7a}.match span{font-size:12px;color:var(--muted);font-weight:500;display:block}.results{text-align:center;padding:18px 0}.results .big{font-size:65px;color:var(--green);font-weight:800;line-height:1}.wronglist{display:grid;gap:9px}.wrongitem{background:#fff;border:1px solid var(--line);padding:13px;border-radius:12px}.wrongitem b{color:var(--warn)}.mutedbox{background:#f0f5f1;border-radius:12px;padding:13px 16px;font-size:13px;color:#456052}.tags{display:flex;gap:8px;flex-wrap:wrap}.tag{font-size:12px;background:#eff4ef;padding:4px 9px;border-radius:99px;color:#567060}.tablewrap{overflow-x:auto}.table{border-collapse:collapse;width:100%;font-size:14px}.table th,.table td{border-bottom:1px solid var(--line);padding:11px 7px;text-align:left;vertical-align:top}.table th{font-size:12px;color:var(--muted);white-space:nowrap}.table td b{color:var(--green)}.reviewgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.miniStat{border:1px solid var(--line);background:white;border-radius:14px;padding:17px}.miniStat b{font-size:25px;color:var(--green)}.topiclist{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.topic{border:1px solid var(--line);background:#fff;border-radius:12px;padding:13px;text-align:left;min-height:84px}.topic b{display:block;color:var(--green);font-size:18px}.topic span{font-size:12px;color:var(--muted)}.note{font-size:12px;color:var(--muted)}.naked{border:0;background:transparent;color:var(--green);font-weight:650;text-decoration:underline;padding:0}.help{line-height:1.8}.line{height:1px;background:var(--line);margin:19px 0}
-@media(max-width:660px){.container{padding:15px 13px 50px}.sitehead{align-items:flex-start;flex-direction:column}.nav{width:100%;justify-content:space-between}.nav button{padding:7px 8px}.panel{padding:16px}.hero{padding:19px}h1{font-size:25px}.level{flex-direction:column;align-items:stretch;gap:8px}.level .btn{width:100%}.flash{min-height:360px;padding:26px 17px}.code{font-size:64px}.english{font-size:22px}.chinese{font-size:21px}.definition{font-size:16px}.flashcontrols .btn{min-width:0;flex:1}.reviewgrid{grid-template-columns:repeat(3,1fr)}.miniStat{padding:10px}.miniStat b{font-size:20px}.topiclist{grid-template-columns:repeat(3,1fr)}.matchgrid{gap:8px;grid-template-columns:.8fr 1.3fr}.match{padding:10px 8px;font-size:13px}.table th:nth-child(3),.table td:nth-child(3){display:none}}
-</style></head><body><div id="app" class="container"></div>
+:root{
+  --bg:#f6f6f2; --panel:#fffdfa; --ink:#1f2b2a; --muted:#687675; --line:#e3e7e1;
+  --seller:#182761; --buyer:#f57b74; --risk:#ffcb47; --accent:#1a7a62; --accent-soft:#d8efe8;
+  --chip:#eef2ef; --white:#fff; --shadow:0 10px 32px rgba(18,48,44,.06);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif}
+button,input{font:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:22px 16px 40px}
+.hero{background:linear-gradient(135deg,#fdfcf7,#f4faf7);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}
+.hero h1{margin:0 0 8px;font-size:32px;line-height:1.1}
+.hero p{margin:6px 0;color:var(--muted)}
+.small{font-size:13px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1.35fr .95fr;gap:18px;margin-top:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:var(--shadow)}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.btn,.chip{border:1px solid var(--line);background:var(--white);border-radius:999px;padding:9px 14px;cursor:pointer}
+.btn.active,.chip.active{background:var(--accent-soft);border-color:#c8e4db;color:#135644;font-weight:700}
+.btn:hover,.chip:hover{filter:brightness(.99)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin:18px 0}
+.leftTools,.rightTools{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.search{padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:#fff;min-width:220px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px;color:var(--muted);font-size:13px}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.swatch{width:22px;height:10px;border-radius:999px;display:inline-block}
+.swatch.seller{background:var(--seller)} .swatch.buyer{background:var(--buyer)}
+.dot{width:13px;height:13px;border-radius:50%;background:var(--risk);border:2px solid #8b6700;display:inline-block}
+.board{display:grid;gap:10px}
+.row{border:1px solid var(--line);border-radius:18px;background:#fff;padding:14px;cursor:pointer;transition:.18s transform,.18s border-color,.18s box-shadow}
+.row:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,0,0,.05)}
+.row.active{border-color:#badfd3;box-shadow:0 0 0 3px #e8f6f1 inset}
+.rowTop{display:grid;grid-template-columns:90px minmax(170px,240px) minmax(120px,160px) 1fr;gap:12px;align-items:center}
+.abbr{font-size:28px;font-weight:900;letter-spacing:.5px;color:#12225b}
+.full{font-weight:800}
+.cn{color:#164d41;font-weight:700}
+.memline{font-size:14px;color:var(--muted);margin-top:6px}
+.timelineWrap{margin-top:12px}
+.stops{display:grid;grid-template-columns:repeat(8,1fr);font-size:11px;color:var(--muted);margin-bottom:6px;gap:4px}
+.stops div{text-align:center}
+.line{position:relative;height:24px;border-radius:999px;background:#f2f3f5;overflow:hidden;border:1px solid #e7eaee}
+.sellerSeg,.buyerSeg{position:absolute;top:0;bottom:0}
+.sellerSeg{left:0;background:var(--seller)}
+.buyerSeg{right:0;background:var(--buyer)}
+.riskMarker{position:absolute;top:50%;transform:translate(-50%,-50%);width:20px;height:20px;border-radius:50%;background:var(--risk);border:2px solid #8b6700;color:#5d4600;font-size:12px;font-weight:900;display:flex;align-items:center;justify-content:center}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.metaTag{background:#f8faf9;border:1px solid var(--line);border-radius:999px;padding:6px 10px;font-size:13px;color:#405150}
+.detail h2{margin:0 0 6px;font-size:26px}
+.detail .subtitle{color:var(--muted);margin-bottom:14px}
+.detailGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.infoBox{border:1px solid var(--line);border-radius:18px;padding:14px;background:#fff}
+.infoBox h3{margin:0 0 8px;font-size:15px}
+.infoBox p,.infoBox li{margin:0;color:#334;}
+.infoBox ul{margin:0;padding-left:18px}
+.memorySentence{margin-top:14px;border-radius:18px;background:#f5faf8;border:1px solid #d7ebe4;padding:14px}
+.memorySentence strong{display:block;margin-bottom:6px;color:#145b48}
+.groupCards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.groupCard{border:1px solid var(--line);border-radius:18px;padding:14px;background:#fff}
+.groupCard h3{margin:0 0 8px}
+.groupCard p{margin:0;color:#566}
+.footerNote{margin-top:18px;color:var(--muted);font-size:13px}
+.hideCN .cn,.hideCN .detail-cn{display:none}
+.hideHint .memline,.hideHint .memorySentence{display:none}
+@media (max-width:1040px){.grid2{grid-template-columns:1fr}.rowTop{grid-template-columns:82px 1fr}.rowTop > :nth-child(3){grid-column:2}.rowTop > :nth-child(4){grid-column:1 / -1}.groupCards,.detailGrid{grid-template-columns:1fr}}
+@media (max-width:640px){.hero h1{font-size:26px}.abbr{font-size:22px}.row{padding:12px}.stops{font-size:10px}.wrap{padding:14px 12px 30px}.search{min-width:0;width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <section class="hero">
+    <h1>TradeMemo · Incoterms 2020 纯背诵看板</h1>
+    <p>不做题，只背诵。参考你 PPT 第31页的“总览式”结构，把 11 个术语做成一张可点击、可筛选、可切换显示内容的背诵板。</p>
+    <p class="small">使用方式：先看总览 → 点一个术语聚焦 → 反复切换分组 / 运输方式 / 是否显示中文或记忆句。</p>
+    <div class="controls" id="groupBtns"></div>
+    <div class="toolbar">
+      <div class="leftTools" id="modeBtns"></div>
+      <div class="rightTools">
+        <button class="chip active" id="toggleCN">显示中文</button>
+        <button class="chip active" id="toggleHint">显示记忆句</button>
+        <input class="search" id="search" placeholder="搜索 EXW / FOB / 货交承运人 / duty..." />
+      </div>
+    </div>
+    <div class="legend">
+      <span><i class="swatch seller"></i> 卖方责任区间</span>
+      <span><i class="dot"></i> 风险转移点</span>
+      <span><i class="swatch buyer"></i> 买方责任区间</span>
+    </div>
+  </section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2 style="margin:0 0 6px">总览背诵板</h2>
+      <p class="small" style="margin:0 0 14px">点击任意一行，可以在右侧看到清晰的背诵要点。</p>
+      <div class="board" id="board"></div>
+      <div class="footerNote">速记：E = 买方做得最多；F = 卖方把货交出去；C = 卖方付主运费，但风险转移更早；D = 卖方负责到目的地附近或目的地。</div>
+    </section>
+
+    <aside class="card detail" id="detail"></aside>
+  </div>
+</div>
 <script>
-const TERMS=[{"code":"EXW","en":"Ex Works","cn":"工厂交货","desc":"卖方在自己场所备好货即交货，买方提货。","risk":"卖方场所，装车前","hint":"卖方不负责装车或出口清关","mode":"不限运输方式","slide":20},{"code":"FCA","en":"Free Carrier","cn":"货交承运人","desc":"卖方出口清关，把货交给买方指定承运人。","risk":"交给指定承运人时","hint":"不限运输方式；交货不必等到装船","mode":"不限运输方式","slide":21},{"code":"FAS","en":"Free Alongside Ship","cn":"船边交货","desc":"卖方把货交到装运港船边，不负责装船。","risk":"装运港船边","hint":"船边 ≠ 船上；买方承担装船","mode":"仅水运","slide":22},{"code":"FOB","en":"Free On Board","cn":"船上交货","desc":"卖方在装运港把货装上船才完成交货。","risk":"装运港装上船时","hint":"集装箱货物：PPT建议考虑FCA","mode":"仅水运","slide":23},{"code":"CFR","en":"Cost & Freight","cn":"成本加运费","desc":"卖方支付海运费到目的港，风险却在起运港转移。","risk":"起运港装上船时","hint":"付运费到目的港 ≠ 承担风险到目的港","mode":"仅水运","slide":24},{"code":"CIF","en":"Cost, Insurance & Freight","cn":"成本、保险费加运费","desc":"CFR 加卖方购买最低要求的货运保险。","risk":"起运港装上船时","hint":"保险最低 Clause C；与CIP不同","mode":"仅水运","slide":25},{"code":"CPT","en":"Carriage Paid To","cn":"运费付至","desc":"卖方支付运费到目的地，但较早转移风险。","risk":"起运地交给第一承运人时","hint":"费用到目的地 ≠ 风险到目的地","mode":"不限运输方式","slide":26},{"code":"CIP","en":"Carriage & Insurance Paid To","cn":"运费和保险费付至","desc":"CPT 加卖方购买较高等级货运保险。","risk":"起运地交给第一承运人时","hint":"保险 Clause A（PPT备注：至少110%货值）","mode":"不限运输方式","slide":27},{"code":"DAP","en":"Delivered At Place","cn":"目的地交货","desc":"卖方运到约定目的地，货还在车上待卸。","risk":"目的地，卸货前","hint":"卖方不负责卸货、进口清关税费","mode":"不限运输方式","slide":28},{"code":"DPU","en":"Delivered At Place Unloaded","cn":"目的地卸货后交货","desc":"卖方运到目的地，并且负责卸货。","risk":"目的地卸货后","hint":"唯一要求卖方卸货；2020年取代DAT","mode":"不限运输方式","slide":29},{"code":"DDP","en":"Delivered Duty Paid","cn":"完税后交货","desc":"卖方运到目的地，负责进口清关和税费。","risk":"目的地，卸货前","hint":"卖方负责进口税，但不要求卖方卸货","mode":"不限运输方式","slide":30}];
-const GROUPS=[{"title":"基础交货","codes":["EXW","FCA","FAS","FOB"],"sub":"先分清工厂、承运人、船边、船上"},{"title":"运费与保险","codes":["CFR","CIF","CPT","CIP"],"sub":"先区分运费、风险与保险"},{"title":"目的地交货","codes":["DAP","DPU","DDP"],"sub":"重点区分卸货和进口税"}];
-const T=Object.fromEntries(TERMS.map(x=>[x.code,x]));
-const KEY='tradememo_concepts_simple_v1',OLDKEY='tradememo_mod3_v2';
-const date=()=>new Date().toLocaleDateString('sv-SE');
-const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const shuffle=xs=>{let a=[...xs];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
-function initial(){return {learned:{},wrong:{},scores:{},lastSeen:{},session:null,view:'home'}}
-let state;try{state=JSON.parse(localStorage.getItem(KEY))||initial()}catch(e){state=initial()}
-if(!state.learned)state.learned={};if(!state.wrong)state.wrong={};if(!state.scores)state.scores={};if(!state.lastSeen)state.lastSeen={};
-function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
-function scrollTop(){window.scrollTo({top:0,behavior:'instant'})}
-function topnav(view){return `<header class="sitehead"><div><button class="logo" onclick="home()">TradeMemo</button><div class="subtitle">Module 3 · 先直接看内容，再四选一</div></div><nav class="nav">${[['home','学习'],['review','复习'],['table','速查']].map(([k,n])=>`<button class="${view===k?'active':''}" onclick="navigate('${k}')">${n}</button>`).join('')}</nav></header>`}
-function layout(body,view=state.view){document.getElementById('app').innerHTML=topnav(view)+`<main>${body}</main><footer class="note" style="margin-top:30px">主要依据老师 Module 3 PPT 第18—33页。仅保留考试需要记住的概念与区别。学习进度保存在当前浏览器。</footer>`}
-function navigate(view){state.view=view;state.session=null;save();render();scrollTop()}
-function home(){navigate('home')}
-function isDue(code){return state.lastSeen[code]&&state.lastSeen[code]<date()}
-function renderHome(){let learned=Object.keys(state.learned).length,due=TERMS.filter(x=>isDue(x.code)).length;
- let cards=GROUPS.map((g,i)=>{let k=g.codes.filter(c=>state.learned[c]).length;return `<div class="level"><div><div class="eyebrow">第 ${i+1} 组 · ${k}/${g.codes.length} 已学</div><h2>${g.title}</h2><span class="codes">${g.codes.join(' · ')}</span><p>${g.sub}</p></div><button class="btn primary" onclick="startGroup(${i})">${k?'再背这一组':'开始背诵'} →</button></div>`}).join('');
- layout(`<div class="eyebrow">BUSINESS ENGLISH · INCOTERMS 2020</div><h1>像背单词一样，记住11个术语</h1><p class="lead">每张卡<b>直接显示全部要背的内容</b>，只需要点击「下一个」。一组看完，自动进入四选一检测和配对题。</p><div class="hero"><strong>推荐学习顺序</strong><p>① 显示内容，按「下一个」　→　② 四选一答题　→　③ 连线配对　→　④ 错题重背</p></div><div class="row space" style="margin-bottom:12px"><strong>背诵分组</strong><span class="small">已学 ${learned}/11 ${due?`· ${due}个隔天待复习`:''}</span></div><div class="levels">${cards}</div><div class="panel"><div class="row space"><div><h3>想先看全部11个术语？</h3><p class="small" style="margin:4px 0">一张表快速比较，不用翻长篇说明。</p></div><button class="btn sm" onclick="navigate('table')">查看速查表</button></div></div>`, 'home')}
-function mkSession(codes,opts={}){return {codes:[...codes],group:opts.group??null,mode:'study',index:0,quiz:[],qindex:0,selected:null,correct:0,questionsWrong:[],mleft:null,matches:{},matchOrder:[],matchChecked:false,matchCorrect:0,studyMistakes:[],review:!!opts.review}}
-function startGroup(i){state.session=mkSession(GROUPS[i].codes,{group:i});state.view='study';save();render();scrollTop()}
-function studyMisses(){const codes=TERMS.filter(t=>(state.wrong[t.code]||0)>0).map(t=>t.code);if(!codes.length)return;state.session=mkSession(codes,{review:true});state.view='study';save();render();scrollTop()}
-function dailyReview(){let codes=TERMS.filter(x=>isDue(x.code)).map(x=>x.code);if(!codes.length)codes=TERMS.filter(x=>state.learned[x.code]).map(x=>x.code);if(!codes.length)return startGroup(0);state.session=mkSession(codes,{review:true});state.view='study';save();render();scrollTop()}
-function studySingle(code){state.session=mkSession([code],{review:true});state.view='study';save();render();scrollTop()}
-function nextStudy(){
- let s=state.session;
- if(!s||s.mode!=='study')return;
- let code=s.codes[s.index];
- state.learned[code]=true;
- state.lastSeen[code]=date();
- s.index++;
- if(s.index>=s.codes.length){beginQuiz();return}
- save();render();scrollTop();
+const stops = ["卖方场所","第一承运人","装运港边","船上/装运港","主运输途中","目的港","目的地","目的地+税费"];
+const terms = [
+  {abbr:"EXW", full:"Ex Works", cn:"工厂交货", group:"E", mode:"any", risk:8, sellerEnd:8, delivery:"卖方场所备货即可", sellerPays:"几乎不承担后续运输", buyerDoes:"装车、出口、主运输、进口都主要由买方负责", point:"卖方责任最少", memory:"EXW = 出厂即交货，卖方最省事。"},
+  {abbr:"FCA", full:"Free Carrier", cn:"货交承运人", group:"F", mode:"any", risk:18, sellerEnd:18, delivery:"货交给买方指定承运人", sellerPays:"负责到承运人接货前，并办理出口清关", buyerDoes:"主运输及后续由买方负责", point:"不限运输方式；卖方负责出口清关", memory:"FCA = 交给承运人，风险就转。"},
+  {abbr:"FAS", full:"Free Alongside Ship", cn:"船边交货", group:"F", mode:"sea", risk:28, sellerEnd:28, delivery:"装运港船边", sellerPays:"负责把货送到船边并出口清关", buyerDoes:"装船和之后由买方负责", point:"仅适用于水运", memory:"FAS = 到船边，还没上船。"},
+  {abbr:"FOB", full:"Free On Board", cn:"船上交货", group:"F", mode:"sea", risk:38, sellerEnd:38, delivery:"货物装上船时", sellerPays:"负责到装船完成，并出口清关", buyerDoes:"海运和之后由买方负责", point:"仅适用于水运；装上船才转风险", memory:"FOB = 上了船，风险转给买方。"},
+  {abbr:"CFR", full:"Cost and Freight", cn:"成本加运费", group:"C", mode:"sea", risk:38, sellerEnd:62, delivery:"风险在装运港船上转移", sellerPays:"卖方支付运费到目的港", buyerDoes:"风险较早转移，但买方承担途中风险", point:"仅水运；卖方付运费，不负责保险", memory:"CFR = 卖方付运费，但风险上船就转。"},
+  {abbr:"CIF", full:"Cost, Insurance and Freight", cn:"成本、保险加运费", group:"C", mode:"sea", risk:38, sellerEnd:62, delivery:"风险在装运港船上转移", sellerPays:"卖方支付运费并投保到目的港", buyerDoes:"承担较早转移后的风险", point:"仅水运；比 CFR 多一个保险", memory:"CIF = CFR + 保险。"},
+  {abbr:"CPT", full:"Carriage Paid To", cn:"运费付至", group:"C", mode:"any", risk:18, sellerEnd:82, delivery:"第一承运人处转风险", sellerPays:"卖方支付运费到约定目的地", buyerDoes:"风险在起运地较早转移", point:"不限运输方式；像 any-mode 版 CFR", memory:"CPT = 风险早转，运费后付。"},
+  {abbr:"CIP", full:"Carriage and Insurance Paid To", cn:"运费、保险费付至", group:"C", mode:"any", risk:18, sellerEnd:82, delivery:"第一承运人处转风险", sellerPays:"卖方支付运费并投保到约定目的地", buyerDoes:"承担较早转移后的风险", point:"不限运输方式；像 any-mode 版 CIF", memory:"CIP = CPT + 保险。"},
+  {abbr:"DAP", full:"Delivered At Place", cn:"目的地交货", group:"D", mode:"any", risk:88, sellerEnd:88, delivery:"货到目的地、未卸货", sellerPays:"卖方承担运到目的地的费用和风险", buyerDoes:"卸货、进口清关及税费一般由买方处理", point:"未卸货是关键词", memory:"DAP = 到了目的地，但还没卸。"},
+  {abbr:"DPU", full:"Delivered At Place Unloaded", cn:"目的地卸货后交货", group:"D", mode:"any", risk:92, sellerEnd:92, delivery:"货到目的地并卸货后", sellerPays:"卖方承担到目的地并卸货的费用和风险", buyerDoes:"进口清关及税费通常由买方处理", point:"唯一要求卖方负责卸货的术语", memory:"DPU = DAP 再往前一步：卖方还得卸货。"},
+  {abbr:"DDP", full:"Delivered Duty Paid", cn:"完税后交货", group:"D", mode:"any", risk:98, sellerEnd:98, delivery:"目的地并完成进口责任后", sellerPays:"卖方承担几乎全部费用、风险、关税和清关", buyerDoes:"买方责任最少", point:"卖方责任最大", memory:"DDP = 税都交完了再交货。"}
+];
+
+let currentGroup = 'ALL';
+let currentMode = 'ALL';
+let currentSearch = '';
+let active = 'FOB';
+let showCN = true;
+let showHint = true;
+
+const groupOptions = [
+  ['ALL','全部术语'],['E','E组'],['F','F组'],['C','C组'],['D','D组']
+];
+const modeOptions = [
+  ['ALL','全部运输方式'],['any','任何运输方式'],['sea','仅水运']
+];
+
+const groupBtns = document.getElementById('groupBtns');
+const modeBtns = document.getElementById('modeBtns');
+const board = document.getElementById('board');
+const detail = document.getElementById('detail');
+const app = document.getElementById('app');
+
+groupOptions.forEach(([key,label])=>{
+  const b=document.createElement('button'); b.className='btn'+(key===currentGroup?' active':''); b.textContent=label;
+  b.onclick=()=>{currentGroup=key;render()}; groupBtns.appendChild(b);
+});
+modeOptions.forEach(([key,label])=>{
+  const b=document.createElement('button'); b.className='btn'+(key===currentMode?' active':''); b.textContent=label;
+  b.onclick=()=>{currentMode=key;render()}; modeBtns.appendChild(b);
+});
+
+document.getElementById('toggleCN').onclick=()=>{showCN=!showCN;render()};
+document.getElementById('toggleHint').onclick=()=>{showHint=!showHint;render()};
+document.getElementById('search').oninput=(e)=>{currentSearch=e.target.value.trim().toLowerCase();render()};
+
+function filteredTerms(){
+  return terms.filter(t=>{
+    if(currentGroup!=='ALL' && t.group!==currentGroup) return false;
+    if(currentMode!=='ALL' && t.mode!==currentMode) return false;
+    if(currentSearch){
+      const text = [t.abbr,t.full,t.cn,t.memory,t.delivery,t.point].join(' ').toLowerCase();
+      if(!text.includes(currentSearch)) return false;
+    }
+    return true;
+  });
 }
-function headerFlow(s){let label=s.mode==='study'?'先背诵':s.mode==='ready'?'准备检测':s.mode==='quiz'?'选择题':s.mode==='matching'?'配对题':'成绩';let i=s.group;return `<div class="row space"><span class="crumb">${s.review?'专项复习':i!==null?`第${i+1}组 · ${GROUPS[i].title}`:'自选背词'} / ${label}</span><button class="btn sm ghost" onclick="home()">返回目录</button></div>`}
-function renderStudy(s){
- let t=T[s.codes[s.index]],total=s.codes.length,ix=s.index;
- return `${headerFlow(s)}<div class="eyebrow">STEP 01 · 先背内容</div><h1>${s.review?'复习术语':'直接看答案背诵'}</h1>
- <div class="row space"><span class="small">第 ${ix+1} / ${total} 张</span><span class="small">PPT 第${t.slide}页</span></div>
- <div class="progress"><div class="bar" style="width:${100*ix/total}%"></div></div>
- <div class="flash" aria-label="${escapeHtml(t.code)} 的背诵内容">
-  <div class="tiny">这些就是这一张需要背的内容</div>
-  <div class="code">${escapeHtml(t.code)}</div>
-  <div class="english">${escapeHtml(t.en)}</div>
-  <div class="chinese">${escapeHtml(t.cn)}</div>
-  <p class="definition">${escapeHtml(t.desc)}</p>
-  <div class="extrainfo"><span><strong>风险转移：</strong>${escapeHtml(t.risk)}</span><span><strong>记忆提醒：</strong>${escapeHtml(t.hint)}</span><span class="tag" style="align-self:center">${escapeHtml(t.mode)}</span></div>
- </div>
- <div class="flashcontrols"><button class="btn primary" style="width:220px;max-width:100%" onclick="nextStudy()">下一个 →</button></div>`
+
+function pos(v){ return `calc(${v}% - 10px)` }
+
+function renderBoard(list){
+  board.innerHTML='';
+  if(!list.length){ board.innerHTML='<div class="small">没有匹配结果，请换个关键词。</div>'; return; }
+  list.forEach(t=>{
+    const row=document.createElement('div'); row.className='row'+(t.abbr===active?' active':'');
+    row.innerHTML=`
+      <div class="rowTop">
+        <div class="abbr">${t.abbr}</div>
+        <div>
+          <div class="full">${t.full}</div>
+          <div class="cn">${t.cn}</div>
+        </div>
+        <div class="metaTag">${t.group}组 · ${t.mode==='sea'?'仅水运':'任何运输方式'}</div>
+        <div>
+          <div class="memline">${t.memory}</div>
+        </div>
+      </div>
+      <div class="timelineWrap">
+        <div class="stops">${stops.map(s=>`<div>${s}</div>`).join('')}</div>
+        <div class="line">
+          <div class="sellerSeg" style="width:${t.sellerEnd}%"></div>
+          <div class="buyerSeg" style="left:${t.sellerEnd}%;right:0"></div>
+          <div class="riskMarker" style="left:${t.risk}%">!</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="metaTag">交货点：${t.delivery}</div>
+        <div class="metaTag">关键词：${t.point}</div>
+      </div>`;
+    row.onclick=()=>{active=t.abbr;render()};
+    board.appendChild(row);
+  });
 }
-function makeQuestion(code,ix){
- const t=T[code],others=shuffle(TERMS.filter(x=>x.code!==code));
- const type=ix%3;
- if(type===0)return {code,prompt:`${code} 的中文含义是？`,answer:t.cn,options:shuffle([t.cn,...others.slice(0,3).map(x=>x.cn)])};
- if(type===1)return {code,prompt:`${code} 的英文全称是？`,answer:t.en,options:shuffle([t.en,...others.slice(0,3).map(x=>x.en)])};
- return {code,prompt:`“${t.desc}”对应哪个贸易术语？`,answer:t.code,options:shuffle([t.code,...others.slice(0,3).map(x=>x.code)])};
+
+function renderDetail(item){
+  if(!item){ detail.innerHTML=''; return; }
+  detail.innerHTML=`
+    <h2>${item.abbr}</h2>
+    <div class="subtitle">${item.full} <span class="detail-cn">· ${item.cn}</span></div>
+    <div class="groupCards" style="margin-bottom:12px">
+      <div class="groupCard"><h3>一句话记忆</h3><p>${item.memory}</p></div>
+      <div class="groupCard"><h3>术语定位</h3><p>${item.group}组 · ${item.mode==='sea'?'仅适用于海运/内河运输':'适用于任何运输方式'}</p></div>
+    </div>
+    <div class="detailGrid">
+      <div class="infoBox"><h3>英文全称</h3><p>${item.full}</p></div>
+      <div class="infoBox"><h3>中文含义</h3><p class="detail-cn">${item.cn}</p><p style="margin-top:6px">${item.point}</p></div>
+      <div class="infoBox"><h3>交货 / 风险转移</h3><p>${item.delivery}</p></div>
+      <div class="infoBox"><h3>卖方负责到哪</h3><p>${item.sellerPays}</p></div>
+      <div class="infoBox"><h3>买方接手后做什么</h3><p>${item.buyerDoes}</p></div>
+      <div class="infoBox"><h3>背诵提醒</h3><ul>
+        <li>先记缩写 → 全称 → 中文。</li>
+        <li>再记“风险在哪里转移”。</li>
+        <li>最后记“卖方到底负责到哪一步”。</li>
+      </ul></div>
+    </div>
+    <div class="memorySentence"><strong>推荐背诵顺序</strong>${item.abbr} — ${item.full} — ${item.cn} — ${item.memory}</div>
+    <div class="footerNote">同类辨析：CFR/CIF 对比“是否含保险”；CPT/CIP 对比“是否含保险”；DAP/DPU 对比“是否卸货”；EXW/DDP 对比“谁责任最少/最多”。</div>
+  `;
 }
-function beginQuiz(){
- let s=state.session;if(!s)return;
- s.mode='quiz';s.qindex=0;s.selected=null;s.correct=0;s.questionsWrong=[];
- s.quiz=shuffle(s.codes.map((code,i)=>makeQuestion(code,i)));
- s.matchOrder=shuffle(s.codes);s.matches={};s.matchChecked=false;s.matchCorrect=0;
- save();render();scrollTop();
+
+function render(){
+  app.classList.toggle('hideCN', !showCN);
+  app.classList.toggle('hideHint', !showHint);
+  [...groupBtns.children].forEach((b,i)=>b.classList.toggle('active',groupOptions[i][0]===currentGroup));
+  [...modeBtns.children].forEach((b,i)=>b.classList.toggle('active',modeOptions[i][0]===currentMode));
+  document.getElementById('toggleCN').classList.toggle('active',showCN);
+  document.getElementById('toggleCN').textContent = showCN ? '显示中文' : '隐藏中文';
+  document.getElementById('toggleHint').classList.toggle('active',showHint);
+  document.getElementById('toggleHint').textContent = showHint ? '显示记忆句' : '隐藏记忆句';
+  const list = filteredTerms();
+  if(!list.some(t=>t.abbr===active)) active = list[0]?.abbr || 'EXW';
+  renderBoard(list);
+  renderDetail(terms.find(t=>t.abbr===active));
 }
-function renderReady(s){return `${headerFlow(s)}<div class="panel" style="text-align:center;padding:32px 22px"><div class="eyebrow">STEP 02 · 背完这组</div><h1>现在再来检测记忆</h1><p class="lead">这一组的 ${s.codes.length} 个概念已经全部看过。接下来是 ${s.codes.length} 道四选一，然后做 ${s.codes.length} 组连线。</p><div class="tags" style="justify-content:center;margin-bottom:22px">${s.codes.map(c=>`<span class="tag">${c}</span>`).join('')}</div><div class="row" style="justify-content:center"><button class="btn" onclick="restartStudy()">再背一遍</button><button class="btn primary" onclick="beginQuiz()">开始小测试 →</button></div></div>`}
-function restartStudy(){let s=state.session;s.mode='study';s.index=0;save();render();scrollTop()}
-function selectAnswer(i){let s=state.session;if(!s||s.selected!==null)return;let q=s.quiz[s.qindex];s.selected=i;let ok=q.options[i]===q.answer;if(ok)s.correct++;else{s.questionsWrong.push({code:q.code,answer:q.answer,selected:q.options[i]});state.wrong[q.code]=(state.wrong[q.code]||0)+1;}save();render()}
-function nextQuiz(){let s=state.session;if(!s||s.selected===null)return;s.qindex++;s.selected=null;if(s.qindex>=s.quiz.length)s.mode='matching';save();render();scrollTop()}
-function renderQuiz(s){let q=s.quiz[s.qindex],answered=s.selected!==null;return `${headerFlow(s)}<div class="eyebrow">STEP 02 · 选择检测</div><h1>选出正确概念</h1><div class="row space"><span class="small">第 ${s.qindex+1} / ${s.quiz.length} 题</span><span class="small">答对 ${s.correct}</span></div><div class="progress"><div class="bar" style="width:${s.qindex/s.quiz.length*100}%"></div></div><div class="panel"><div class="quizPrompt">${escapeHtml(q.prompt)}</div><div class="choices">${q.options.map((o,i)=>`<button class="choice ${answered?(o===q.answer?'correct':i===s.selected?'wrong':''):''}" onclick="selectAnswer(${i})" ${answered?'disabled':''}>${String.fromCharCode(65+i)}. ${escapeHtml(o)}</button>`).join('')}</div>${answered?`<div class="feedback ${q.options[s.selected]===q.answer?'':'bad'}"><strong>${q.options[s.selected]===q.answer?'✓ 正确':'× 还没记牢'}</strong>${escapeHtml(T[q.code].code+' · '+T[q.code].cn)}<br>${escapeHtml(T[q.code].hint)}</div><div style="margin-top:13px"><button class="btn primary full" onclick="nextQuiz()">下一题 →</button></div>`:''}</div>`}
-function matchLeft(code){let s=state.session;if(s?.matchChecked)return;s.mleft=code;save();render()}
-function matchRight(code){let s=state.session;if(s?.matchChecked||!s.mleft)return;let left=s.mleft;for(let k of Object.keys(s.matches))if(s.matches[k]===code)delete s.matches[k];s.matches[left]=code;s.mleft=null;save();render()}
-function checkMatching(){let s=state.session;if(Object.keys(s.matches).length<s.codes.length)return;s.matchChecked=true;s.matchCorrect=0;for(let c of s.codes){if(s.matches[c]===c)s.matchCorrect++;else state.wrong[c]=(state.wrong[c]||0)+1;}save();render()}
-function renderMatching(s){let pairs=s.matchOrder;return `${headerFlow(s)}<div class="eyebrow">STEP 03 · 连线配对</div><h1>缩写和中文意思配对</h1><p class="lead">先点击左侧缩写，再点右侧对应的中文。配对完成后统一检查。</p><div class="panel"><div class="matchgrid"><div><h3>英文缩写</h3><div class="matchcol">${s.codes.map(c=>{let done=!!s.matches[c],bad=s.matchChecked&&s.matches[c]!==c;return `<button class="match ${s.mleft===c?'active':''} ${done?'done':''} ${bad?'error':''}" onclick="matchLeft('${c}')">${c}${done?`<span>已选 ${T[s.matches[c]].cn}</span>`:''}</button>`}).join('')}</div></div><div><h3>中文含义</h3><div class="matchcol">${pairs.map(c=>{let assigned=Object.values(s.matches).includes(c),bad=s.matchChecked&&s.matches[c]!==c;return `<button class="match ${assigned?'done':''} ${bad?'error':''}" onclick="matchRight('${c}')">${escapeHtml(T[c].cn)}</button>`}).join('')}</div></div></div>${s.matchChecked?`<div class="feedback ${s.matchCorrect===s.codes.length?'':'bad'}"><strong>${s.matchCorrect}/${s.codes.length} 配对正确</strong>${s.codes.map(c=>`${c} = ${T[c].cn}`).join('　·　')}</div><div style="margin-top:14px"><button class="btn primary full" onclick="finish()">查看成绩 →</button></div>`:`<div class="row space" style="margin-top:17px"><span class="small">已连接 ${Object.keys(s.matches).length}/${s.codes.length}</span><button class="btn primary" onclick="checkMatching()" ${Object.keys(s.matches).length!==s.codes.length?'disabled':''}>检查配对</button></div>`}</div>`}
-function finish(){let s=state.session;if(!s||s.mode!=='matching'||!s.matchChecked)return;let matched=s.matchCorrect,total=s.quiz.length+s.codes.length,score=Math.round((s.correct+matched)/total*100);let errors=[...new Set([...s.questionsWrong.map(q=>q.code),...s.codes.filter(c=>s.matches[c]!==c)])];s.errors=errors;s.score=score;s.mode='result';if(s.group!==null)state.scores[s.group]=Math.max(state.scores[s.group]||0,score);save();render();scrollTop()}
-function restudyWrong(){let s=state.session;if(!s?.errors?.length)return;state.session=mkSession(s.errors,{review:true});state.view='study';save();render();scrollTop()}
-function nextGroup(){let s=state.session;let i=s?.group; if(i===null||i===undefined||i===GROUPS.length-1){home();return}startGroup(i+1)}
-function renderResult(s){let total=s.quiz.length+s.codes.length;return `${headerFlow(s)}<div class="panel results"><div class="eyebrow">本组完成</div><div class="big">${s.score}%</div><h1>${s.errors.length?'这些术语再巩固一下':'这组概念已经记得不错了'}</h1><p class="lead">选择题 ${s.correct}/${s.quiz.length} · 连线题 ${s.matchCorrect}/${s.codes.length}</p>${s.errors.length?`<div class="wronglist" style="text-align:left;margin:15px 0">${s.errors.map(code=>`<div class="wrongitem"><b>${code}</b> · ${T[code].en} · ${T[code].cn}<div class="small">${T[code].desc}</div></div>`).join('')}</div>`:`<div class="mutedbox">建议明天再复习一轮，确认真正记牢。</div>`}<div class="row" style="justify-content:center;margin-top:22px">${s.errors.length?`<button class="btn primary" onclick="restudyWrong()">重新背错题</button>`:''}<button class="btn" onclick="restartStudy()">重背整组</button><button class="btn" onclick="nextGroup()">${s.group!==null&&s.group<2?'学习下一组 →':'返回目录'}</button></div></div>`}
-function renderReview(){let wrong=TERMS.filter(x=>state.wrong[x.code]>0),due=TERMS.filter(x=>isDue(x.code)),learned=TERMS.filter(x=>state.learned[x.code]);layout(`<div class="eyebrow">REVIEW</div><h1>复习学过的概念</h1><p class="lead">错题留在复习池；每天复习一次，不需要每次打开都重新复习。</p><div class="reviewgrid"><div class="miniStat"><b>${learned.length}</b><div class="small">已学习</div></div><div class="miniStat"><b>${wrong.length}</b><div class="small">错题术语</div></div><div class="miniStat"><b>${due.length}</b><div class="small">隔天待复习</div></div></div><div class="panel"><h3>开始复习</h3><p class="small">直接看答案复习，每次只需按「下一个」，然后进入检测。</p><div class="row"><button class="btn primary" onclick="dailyReview()">${due.length?`复习今天到期的 ${due.length} 个`:'复习已学术语'}</button><button class="btn" onclick="studyMisses()" ${wrong.length?'':'disabled'}>错题专项 ${wrong.length}</button></div></div><h3>错题列表</h3><div class="topiclist" style="margin-top:12px">${wrong.length?wrong.map(t=>`<button class="topic" onclick="studySingle('${t.code}')"><b>${t.code}</b><span>${t.cn}</span><span> · ${state.wrong[t.code]}次</span></button>`).join(''):`<div class="small" style="grid-column:1/-1">暂无错题。可以先开始第一组学习。</div>`}</div><p class="note" style="margin-top:20px">选择题和配对题答错的内容会计入错题；完成复习不自动清空历史错题记录。</p>`,'review')}
-function renderTable(){layout(`<div class="eyebrow">AT A GLANCE · PPT P.18—33</div><h1>11种术语速查</h1><p class="lead">只列必背核心。点缩写即可单独背一张卡。</p><div class="panel tablewrap"><table class="table"><thead><tr><th>缩写</th><th>英文 / 中文</th><th>风险转移点</th><th>记忆关键</th></tr></thead><tbody>${TERMS.map(t=>`<tr><td><button class="naked" onclick="studySingle('${t.code}')">${t.code}</button></td><td>${escapeHtml(t.cn)}<div class="small">${escapeHtml(t.en)}</div></td><td>${escapeHtml(t.risk)}</td><td>${escapeHtml(t.hint)}</td></tr>`).join('')}</tbody></table></div><div class="mutedbox">口诀：<b>E</b> 买方承担更多；<b>F</b> 卖方交给买方指定运输方；<b>C</b> 卖方付主运费、风险较早转移；<b>D</b> 卖方承担风险至约定目的地交货点。<br>仅水运：FAS、FOB、CFR、CIF；其他七种不限运输方式。</div><p class="note" style="margin-top:12px">资料来源：Module 3 PPT 第18—33页；中文为辅助记忆表达。</p>`,'table')}
-function render(){if(!state.session){if(state.view==='review')return renderReview();if(state.view==='table')return renderTable();return renderHome()}let s=state.session;state.view='study';let body=s.mode==='study'?renderStudy(s):s.mode==='ready'?renderReady(s):s.mode==='quiz'?renderQuiz(s):s.mode==='matching'?renderMatching(s):renderResult(s);layout(body,'study')}
 render();
-</script></body></html>
+</script>
+</body>
+</html>
